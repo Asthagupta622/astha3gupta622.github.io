@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astha The Corner</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,300&family=Playball&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+
+    body {
+        font-family: 'playball', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img1.jpg');
+        border: 2px solid rgb(10, 8, 9);
+    }
+
+    .left img {
+        filter: invert(100%);
+        width: 136px;
+        margin: auto;
+        display: block;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+        font-size: 45px;
+        /* border: 2px solid rgb(221, 255, 0); */
+    }
+
+    .mid {
+        display: block;
+        width: 500px;
+        margin: 18px auto;
+        /* border: 2px solid rgb(16, 15, 15); */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        /* border: 2px solid rgb(0, 255, 68); */
+    }
+
+    .navbar {
+        display: inline-block;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'playball', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 15px 3px;
+        border: 2px solid grey;
+        border-radius: 24px;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    .container button{
+        display:block;
+        margin:auto;
+        width:52px
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .formgroup input {
+        font-family: 'playball', cursive;
+        text-align: center;
+        display: block;
+        width: 307px;
+        padding: 9px;
+        border: 5px solid black;
+        margin: 8px auto;
+    }
+
+    .btn:hover {
+        background-color: rgb(67, 102, 102);
+    }
+
+    .container {
+        border: 2px solid green;
+
+        border-radius: 10px;
+        width: 45%;
+        display: block;
+        padding: 56px 89px;
+        margin: 165px 90px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="logo.jpg" alt="">
+            <div>Astha The Corner</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for nav bar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Call us now</button>
+            <button class="btn"> Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Enjoy the best food of Lucknow </h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter ur Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter ur Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter ur Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="enter ur Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
